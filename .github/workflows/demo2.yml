@@ -8,4 +8,7 @@ jobs:
         run: echo "Hello World!"
 
       - name: show date
-        run: echo "Current date and time1 "
+        run: echo "Current date and time is $(date)"
+
+      - name: show current directory
+        run: pwd
